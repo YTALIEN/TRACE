@@ -15,7 +15,7 @@ The code has been tested running under python 3.10.12, with the following packag
 Please run the `main.py`
 
 ## Creating Custom Datasets and Train new model
-We provide the dataset_generate.py script to offer a standardized way to create your own datasets. You only need to define your specific optimization problem, and the script's uniform data generation function will handle the rest.
+We provide the `dataset_generate.py`script to offer a standardized way to create your own datasets. You only need to define your specific optimization problem, and the script's uniform data generation function will handle the rest.
 
 Here is an example demonstrating how to add a new problem type called "DBG":
 ```python
